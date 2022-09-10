@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="courses.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+       <nav>
+        <a href="index.html"><img src="logo2.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="placements.html">PLACEMENTS</a></li>
+                <li><a href="infrastatructure.html">INFRASTRUCTURE</a></li>
+                <li><a href="sports.html">SPORTS</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+ 
+<div class="text-box">
+    <h1>World's Dream College</h1>
+    <p>Make your Dream come true with our college, join now to get into dream jobs....</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>       
+
+    </section>
+<!----toggle menu---->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+<!----course---->
+<section class="course">
+    <h1>Courses we Offer</h1>
+    <p>Courses we offer here are efficient and used to enhance the career....</p>
+
+    <div class="row">
+        
+        <div class="course-col">
+            <h3>MBA</h3>
+            <p>A Master of Business Administration (MBA) is a postgraduate qualification that teaches you key business practices. Accredited MBA courses and business schools prepare you for senior management roles in business by exposing you to all areas of business including accounting, finance, marketing and human resources.</p>
+        </div>
+        <div class="course-col">
+            <h3>Under Graduation</h3>
+            <p>A student who is pursuing a degree after high school,<br>at the first level of higher education at a college or university is an undergraduate student.<br> Undergraduate students are typically those working to earn a bachelor's degree,<br> an associate's degree.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>A postgraduate degree is one that you may study upon completion of an undergraduate degree, or,<br> in special circumstances, significant industry experience.<br>There are two types of postgraduate study; coursework or research.<br> Postgraduate study by coursework typically has different levels,<br> such as Graduate Certificate.</p>
+        </div>
+    </div>
+</section>
+<!----campus---->
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Campus Life is a positive place where students can go to have fun with friends,<br> talk about relevant issues and be heard without judgment.<br> It's a place where students are challenged to make good decisions and lead in positive ways in their school.</p>
+    <div class="row">
+     <div class="campus-col">
+        <img src="campus1.jpg">
+        <div class="layer">
+            <h3>INDIA</h3>
+        </div>
+     </div>
+        <div class="campus-col">
+           <img src="campus2.jpg">
+           <div class="layer">
+               <h3>CANADA</h3>
+           </div>
+        </div>
+            <div class="campus-col">
+               <img src="campus3.jpg">
+               <div class="layer">
+                   <h3>LOS ANGLES</h3>
+               </div>
+            </div>
+    </div>
+</section>
+<!----Facilities---->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p> The mission of the university community is to provide various facilities and create an exceptional atmosphere for students, faculty, and staff.<br>Communication and collaboration between students and staff aren’t easy in higher education and the best practices for facilities management are not adopted in educational institutions.
+        <br> Once you automate the entire campus facilities you can simplify and streamline the entire range of administrative processes.</p>
+        <div class="row">
+            <div class="facilities-col">
+            <img src="library.jpg">
+            <h3>World Class Library</h3>
+            <p>A library is a collection of materials, books or media that are accessible for use and not just for display purposes.<br> A library provides physical or digital access materials, and may be a physical location or a virtual space, or both.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="auditorium.jpg">
+                <h3>Biggest Auditorium</h3>
+                <p>The auditorium (also known as the house) is where the audience sits to watch the performance.<br> The seating may be at one or more levels depending on the size and type of theatre.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Professional lab.jpg">
+                    <h3>Professional Laboratories</h3>
+                    <p>Students, faculty and staff have access to the computer labs,<br> which provide the tools and technologies to produce websites,<br> edit papers, complete class assignments, communicate via email, conduct data analyses and access library resources.</p>
+                    </div>
+        </div>
+</section>
+<!----testimonials---->
+<section class="testimonials">
+    <h1>What our Students Says</h1>
+    <p>Student Review means a formal meeting that takes place at the Alternative Program with the district/charter school representative, the Alternative Program Administrator,<br> and other appropriate Alternative Program staff to determine to what degree the student currently placed in the Alternative Program is progressing.</p>
+<div class="row">
+    <div class="testimonials-col">
+        <img src="student1.jpg">
+        <div>
+            <p>Yes,our college have the infrastructure, facilities and equipment.<br>And we also have technical workshop and labs to implement student ideas on their own with the guidance of faculty who are student friendly..who also guide you to your good career.
+            </p>
+            <h3>Jonathan Harley</h3>
+        </div>
+    </div>
+        <div class="testimonials-col">
+            <img src="student2.jfif">
+            <div>
+                <p>As I said ,I'm pursuing my final year bachelor's.... college management are doing lots of efforts to bring MNCs and <br>High rated companies to college for students are to be placed in them....and college also supports students by conducting company specific training program and recruitment drives to train students in various MNCs</p>
+                <h3>Christiana</h3>
+            </div>
+    </div>
+</div>
+</section>
+<!----Call to action---->
+<section class="cta">
+    <h1>Enroll for our various courses anywhere from the world...
+    </h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+<!----Footer---->   
+<section class="footer">
+    <h4>About Us</h4>
+    <p> Students interested in particular career paths can use our resources to learn about educational requirements, earning potential, and job demand.<br> Our financial aid resources help students identify scholarships and save money on college.<br> College Choice sets high editorial standards and draws on reputable sources,<br> including higher education information from the federal government, to create practical and reliable resources for college students.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    
+</section>    
+</body>
+</html>
